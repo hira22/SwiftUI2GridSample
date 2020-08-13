@@ -15,6 +15,8 @@
 		B69BDB2024E5EB090041798B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69BDAF524E5EB080041798B /* ContentView.swift */; };
 		B69BDB2124E5EB090041798B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69BDAF624E5EB090041798B /* Assets.xcassets */; };
 		B69BDB2224E5EB090041798B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69BDAF624E5EB090041798B /* Assets.xcassets */; };
+		B69BDB3224E5EBF10041798B /* Emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69BDB3124E5EBF10041798B /* Emojis.swift */; };
+		B69BDB3324E5EBF10041798B /* Emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69BDB3124E5EBF10041798B /* Emojis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		B69BDB1624E5EB090041798B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69BDB1A24E5EB090041798B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		B69BDB1C24E5EB090041798B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B69BDB3124E5EBF10041798B /* Emojis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emojis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 			children = (
 				B69BDAF424E5EB080041798B /* SwiftUI2GridSampleApp.swift */,
 				B69BDAF524E5EB080041798B /* ContentView.swift */,
+				B69BDB3124E5EBF10041798B /* Emojis.swift */,
 				B69BDAF624E5EB090041798B /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69BDB3224E5EBF10041798B /* Emojis.swift in Sources */,
 				B69BDB1F24E5EB090041798B /* ContentView.swift in Sources */,
 				B69BDB1D24E5EB090041798B /* SwiftUI2GridSampleApp.swift in Sources */,
 			);
@@ -317,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69BDB3324E5EBF10041798B /* Emojis.swift in Sources */,
 				B69BDB2024E5EB090041798B /* ContentView.swift in Sources */,
 				B69BDB1E24E5EB090041798B /* SwiftUI2GridSampleApp.swift in Sources */,
 			);
